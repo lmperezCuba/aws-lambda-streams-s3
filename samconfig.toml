@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "lambda-streaming-large-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-hiv4e06jkyo3"
+s3_prefix = "lambda-streaming-large-sam"
+region = "eu-north-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
